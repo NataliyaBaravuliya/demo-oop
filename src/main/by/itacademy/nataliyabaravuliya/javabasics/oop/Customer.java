@@ -2,28 +2,23 @@ package by.itacademy.nataliyabaravuliya.javabasics.oop;
 
 public class Customer {
     private int idNumber;
-    private String surName;
-    private String firstName;
-    private String middleName;
+    private String surname;
+    private String name;
+    private String middlename;
     private String address;
     private int creditCardNumber;
     private String bankAccountNumber;
-
-    public void setIdNumber(int newIdNumber) {
-        idNumber = newIdNumber;
-    }
-
-    public void setSurName(String newSurName) {
-        surName = newSurName;
+    public void setSurname(String newSurname) {
+        surname = newSurname;
 
     }
 
     public void setFirstName(String newFirstName) {
-        firstName = newFirstName;
+        name = newFirstName;
     }
 
-    public void setMiddleName(String newMiddleName) {
-        middleName = newMiddleName;
+    public void setMiddlename(String newMiddlename) {
+        middlename = newMiddlename;
     }
 
     public void setAddress(String newAddress) {
@@ -42,16 +37,16 @@ public class Customer {
         return idNumber;
     }
 
-    public String getSurName() {
-        return surName;
+    public String getSurname() {
+        return surname;
     }
 
     public String getFirstName() {
-        return firstName;
+        return name;
     }
 
-    public String getMiddleName() {
-        return middleName;
+    public String getMiddlename() {
+        return middlename;
     }
 
     public String getAddress() {
